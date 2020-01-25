@@ -1,0 +1,11 @@
+{
+  "name": "track-dev-chrome-extentions",
+  "version": "0.1.0",
+  "description": "A (maybe) useful collection for rapid development for the track dev team.",
+  "main": "src/context.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mitsuru.ogawa.jp@gmail.com",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "track-dev browser extensions",
+  "description": "A (maybe) useful collection for rapid development for the track dev team.",
+  "version": "0.1.0",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["src/context.js"]
+  },
+  "icons": {
+    "16": "src/assets/16.png",
+    "48": "src/assets/48.png",
+    "128": "src/assets/128.png"
+  },
+  "manifest_version": 2
+}
