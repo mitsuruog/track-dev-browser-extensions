@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "permissions": ["contextMenus"],
   "background": {
-    "scripts": ["src/context.js"]
+    "scripts": ["src/background.js"]
   },
   "icons": {
     "16": "src/assets/16.png",
