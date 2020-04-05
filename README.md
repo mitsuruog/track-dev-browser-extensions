@@ -14,4 +14,5 @@ See more details here.
 
 ## Features
 
+- Transform specific text to Jira ticket URL. Configured by option page.
 - Open the current page/link on the `localhost:3000`.
