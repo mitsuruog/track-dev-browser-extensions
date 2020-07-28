@@ -1,19 +1,11 @@
 {
   "name": "track-dev browser extensions",
   "description": "A (maybe) useful collection for rapid development for the track dev team.",
-  "version": "0.1.2",
-  "permissions": ["contextMenus", "clipboardWrite", "storage"],
+  "version": "0.1.0",
+  "permissions": ["contextMenus"],
   "background": {
-    "scripts": ["src/background.js"]
+    "scripts": ["src/context.js"]
   },
-  "options_page": "src/options.html",
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["src/content.js"],
-      "run_at": "document_idle"
-    }
-  ],
   "icons": {
     "16": "src/assets/16.png",
     "48": "src/assets/48.png",
